@@ -4,6 +4,7 @@ pipeline {
     stage('first stage') {
       steps {
         node(label: 'label')
+        sh 'echo "hello world"'
       }
     }
 
